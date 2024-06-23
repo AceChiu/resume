@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+        <script src="https://kit.fontawesome.com/dd0f9aaed8.js" crossorigin="anonymous"></script>
+        
         <style>
             .title {
                 font-family: "Times New Roman", Times, serif;
@@ -24,28 +26,62 @@
     <body>
         <div class = "container">
             <!-- header : name & connected message -->
-            <div class="page-header">
-                <h1 align="center">Yu-Wei Chiu</h1>
-                <p align="center">Mobile: +1 (236) 9923543 | E-mail: <a>chiuyuwei327@gmail.com</a></p> 
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 align="left">Yu-Wei Chiu</h1>
+                    <div align="left" style="display: inline-flex; align-items: center;">
+                        <i class="fa fa-graduation-cap" style="font-size:24px"></i>
+                        &nbsp;&nbsp;
+                        MS, Applied Ahysics,
+                        &nbsp;
+                        <a href="https://www.nycu.edu.tw/nycu/en/index">National Chiao Tung University</a>
+                        &nbsp;&nbsp;
+                        <div>2012-1015 </div>
+                    </div> 
+                    <h4 align = "left"><a href="Autobiography.html">Autobiography</a></h4>
+                    <hr style="border-width:10px;">
+                </div>
+                <div class="col-sm-6" style="margin-top: 20px;">
+                    <div align="left" style="display: inline-flex; align-items: center;">
+                        <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
+                        &nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/yuwei-chiu-8b72a3a9/">https://www.linkedin.com/in/yuwei-chiu-8b72a3a9/</a>
+                    </div>
+                    <br>
+                    <div align="left" style="display: inline-flex; align-items: center;">
+                        <i class="fa fa-github" style="font-size:24px"></i>
+                        &nbsp;&nbsp;
+                        <a href="https://github.com/AceChiu">https://github.com/AceChiu</a>
+                    </div>
+                    <br>
+                    <div align="left" style="display: inline-flex; align-items: center;">
+                        <i class="fa-solid fa-phone" style="font-size:24px"></i>
+                        &nbsp;&nbsp;
+                        <a href="tel:+12369923543">+1(236)9923543</a>
+                    </div>
+                    <br>
+                    <div align="left" style="display: inline-flex; align-items: center;">
+                        <i class="fa-solid fa-envelope" style="font-size:24px"></i>
+                        &nbsp;&nbsp;
+                        <a href="mailto:chiuyuwei327@gmail.com">chiuyuwei327@gmail.com</a>
+                    </div>
+                </div>
             </div>
             <!-- SUMMARY-->
             <div class="row">
                 <div class="col-sm-8">
                     <h3 class="title">SUMMARY</h3>
                 </div>
-                <div class="col-sm-4">
-                    <h4 align = "right"><a href="Autobiography.html">Cover Letter</a></h4>
-                </div>
             </div>
             <div>
                 <ul>
-                    <li><b>8 years of relevant experience as a Software Developer</b></li>  
+                    <li><b>8 years of experience as a Software Developer</b></li>  
                     <li><b>8 years of experience in developing applications using Java, and is very familiar with the ecosystem of spring boot, spring framework, and hibernate.</b></li>
                     <li><b>Secure coding practices, including Spring Security, Auth Management implementation</b></li>
-                    <li><b>Expert-level proficiency in vue.js, JavaScript, and Python</b></li>
+                    <li><b>Expert-level proficiency in Vue.js, JavaScript, and Python</b></li>
                     <li><b>Experience building a front-end library</b></li>
-                    <li><b>Strong RDBMS knowledge (SQL Server, Oracle, MySql)</b></li>
-                    <li><b>Knowledge of Queueing system experience (Kafka, RabbitMQ)</b></li>
+                    <li><b>Strong RDBMS knowledge in MSSQL, Oracle, and MySql</b></li>
+                    <li><b>Knowledge of Queueing system experience, Kafka and RabbitMQ)</b></li>
                     <li><b>Familiar with related services of cloud platform Azure</b></li>
                     <li><b>2 years of container deployment experience related to Docker, Kubernetes, AKS</b></li>
                     <li><b>Pay attention to clean code and optimize system architectural</b></li>
@@ -59,38 +95,39 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <h4 class = "subtitle"><b>Crop. IT • Development Department(Senior Websites Developer)</b> 
-                       <div class = "company">Delta Electronics, Inc.</div> 
+                <div class="col-sm-12">
+                    <h4 class = "subtitle" style="display: inline-flex;">
+                        <b> Senior Website Developer, 
+                            <a href="https://www.deltaww.com/en-US/index"> Delta Electronics, Inc.</a> 
+                        </b> 
+                        &nbsp;&nbsp;
+                        <div class = "company">Mar.2019~May.2024</div>
                     </h4>
                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4" align = "right">
-                    <div class = "company"><h4>Ｍar.2019~May.2024</h4></div>
-                </div>
            </div>
            <div>
                <ul>
                     <li>
-                        <b>E-procurement System - Project : </b><span>202106~202405</span>
+                        <b>E-Procurement System - Project, </b><span class = "company">Jun.2021~May.2024, </span>
+                        <span style="color: green;"> Java, Spring Boot, Vue.js, Microservices, Oracle, MSSQL, Azure, AKS, K8s</span>
                         <ul>
-                            <li>Assist in building the Delta Authority Platform System</li>
-                            <li>Implement microservices architecture</li>
-                            <li>Service can be developed, tested, deployed, and maintained independently without affecting other services or the entire system, reducing deployment risks.</li>
-                            <li>Provide forecast, quote, purchase, shipment, consignment service for more than ten thousand vendor users</li>
+                            <li type="square">Provide forecast, quote, purchase, shipment, consignment service for more than ten thousand vendor users</li>
+                            <li type="square">Implement microservices architecture</li>
+                            <li type="square">Service can be developed, tested, deployed, and maintained independently without affecting other services or the entire system, reducing deployment risks.</li>
                         </ul>
                     </li>  
                     <li>
-                       <b>Tooling Management System - Project : </b><span>201903~202405</span>
+                       <b>Tooling Management System - Project, </b><span class = "company">Mar.2019~May.2021, </span>
+                       <span style="color: green;"> Java, Spring Boot, Vue.js, Oracle, Azure, AKS, K8s</span>
                         <ul>
                             <li>Management mold process in the global Delta.</li>
                             <li>Build front-end architecture via the vue.js framework</li>
-                            <li>Implement back-end service.</li>
                             <li>Build the DevOps system in Azure.</li>
                         </ul>
                     </li>
                     <li>
-                       <b>Delta Authority Platform System - Project : </b><span>202106~202405</span>
+                       <b>Delta Authority Platform System - Project, </b><span class = "company">Jun.2021~May.2024, </span>
+                       <span style="color: green;"> Java, Spring Security, Vue.js, Microservices, LDAP, ADFS, Oracle, Azure, AKS, K8s</span>
                         <ul>
                             <li>Delta Authentication Access by LDAP</li>
                             <li>Single Sign-On by ADFS</li>
@@ -98,14 +135,16 @@
                         </ul>
                     </li>
                     <li>
-                       <b>Facebook chatbot for Delta product - Project : </b><span>201910~202005</span>
+                        <b>Facebook chatbot for Delta product - Project, </b><span class = "company">Oct.2019~May.2020, </span>
+                        <span style="color: green;"> Java, Spring Boot, Vue.js, Node.js, Facebook-Chatbot, Oracle, Azure, AKS, K8s</span>
                         <ul>
                             <li>Building the chatbot service for customers to search Delta product documents easily.</li>
                             <li>Building the system for Delta users to maintain Delta product documents.</li>
                         </ul>
                     </li>  
                     <li>
-                        <b>Utility Service - Shared Service : </b><span>202203~202305</span>
+                        <b>Utility Service - Shared Service : </b><span class = "company">Mar.2022~May.2023</span>
+                        <span style="color: green;"> Java, Spring Boot, Vue.js, Cron-Jobs, FPT, SMTP, Oracle, K8s</span>
                         <ul>
                             <li>Schedule Service</li>
                             <li>Mail Service</li>
@@ -113,7 +152,8 @@
                         </ul>
                     </li> 
                     <li>
-                        <b>Front End Template - Shared Library: </b><span>202103~202405</span>
+                        <b>Front End Template - Shared Library: </b><span class = "company">Mar.2021~May.2024</span>
+                        <span style="color: green;">Vue.js, Typescirpt, Nexus Repository</span>
                         <ul>
                             <li>Create a front-end template by Element-Ui Library</li>
                             <li>Build standard operation procedure of login process by connecting with delta authority platform system</li>
@@ -121,35 +161,36 @@
                         </ul>
                     </li>
                     <li>
-                        <b>Log Service - Shared Service : </b><span>202203~202310</span>
+                        <b>Log Service - Shared Service : </b><span class = "company">Mar.2022~Oct.2023</span>
+                        <span style="color: green;">ELK Stack</span>
                         <ul>
                             <li>Using ELK service to collect system log</li>
                         </ul>
                     </li> 
                </ul>
            </div>
-            <div class="row">
-                 <div class="col-sm-4">
-                     <h4 class = "subtitle"><b>Architecture Department(Websites Developer)</b> 
-                        <div class = "company">WT Microelectronics</div> 
-                     </h4>
+           <div class="row">
+                <div class="col-sm-12">
+                    <h4 class = "subtitle" style="display: inline-flex;">
+                        <b> Application Developer, 
+                            <a href="https://www.wtmec.com/?lang=en"> WT Microelectronics</a> 
+                        </b> 
+                        &nbsp;&nbsp;
+                        <div class = "company">Nov.2016~Mar.2019</div>
+                    </h4>
                 </div>
-                 <div class="col-sm-4"></div>
-                 <div class="col-sm-4" align = "right">
-                     <div class = "company"><h4>Nov.2016~Ｍar.2019</h4></div>
-                 </div>
             </div>
             <div>
                 <ul>
-                    <li><b>2+ Years Experience with Back-End Java Development for B2B Data Exchange via Rosettanet/EDI Protocol</b></li>  
+                    <li><b>2+ Years Experience with Back-End Java Development in B2B Data Exchange via Rosettanet/EDI Protocol</b></li>  
                     <li><b>Code refactoring of inefficient and old cluttered codes</b></li>
                     <li><b>Design and build ETL system by SAP Data Service</b></li>
-                    <li><b>Office website maintainment</b></li>
+                    <li><b>Build Office website via WorldPress</b></li>
                 </ul>
             </div>
    
             <!-- EDUCATION  -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-4">
                      <h3 class="title">EDUCATIONAL BACKGROUND</h3>
                 </div>
@@ -190,7 +231,7 @@
                     <li><b>Elective Course: Digital Logic Design (Verilog), C Programming Language </b>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
 
             <!-- LICENSE  -->
@@ -220,17 +261,15 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <b>Programming Skills :</b> Professional in Java and well-experienced in JavaScript/Node.js and python <br>
+                    <b>Programming Skills :</b> Professional in Java and well-experienced in JavaScript/Node.js and Python <br>
                     <b>Library or Framework:</b> Spring, Hibernate, Vue.js, Flask <br>
                     <b>Cloud Service:</b> Azure <br>
-                    <b>Thrid Party Service:</b> ELK, Azure Devops, k8s, aks, kafka, Nexus <br>
+                    <b>Thrid Party Service:</b> ELK, Azure Devops, k8s, AKS, kafka, Nexus <br>
                     <b>Database Skills :</b> MySQL, Oracle, MSSQL, MongoDB <br>
                     <b>Business Intelligence(BI) :</b> D3js, SAP Data Service(ETL tool) <br>
                     <b>Version Control :</b> Git <br>
-                    <b>Skills :</b> Strong problem solving, critical thinking, algorithm skills, and will-experienced in Design Pattern<br>
+                    <b>Skills :</b> Strong Problem Solving, Critical Thinking, Algorithm Skills, and Will-Experienced in Design Pattern<br>
                     <b>Interests :</b> Coding, Diving, Surfing <br>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>
